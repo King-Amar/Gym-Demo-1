@@ -30,12 +30,17 @@
     <style>
         @media (max-width: 768px) {
             .slider_area, 
+            .slider_active,
             .single_slider {
-                height: auto !important;
-                min-height: 70vh !important;
+                height: 100vh !important;
+                min-height: 100vh !important;
+                max-height: 100vh !important;
             }
             .single_slider {
-                padding: 120px 0 80px 0 !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                padding: 0 !important;
             }
         }
     </style>
